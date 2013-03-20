@@ -1,0 +1,48 @@
+File>Document Setup>Document Information
+Title:
+The MagPi Issue 9 February 2013
+
+Author:
+The MagPi Team
+
+Keywords:
+Raspberry Pi
+GPIO
+Hardware
+LadyADA
+ADAFruit
+WebIO Pi
+Pimoroni
+PiBow
+Backup
+Quick2Wire
+RISC OS
+Arch
+Vala
+C Cave
+Scatch
+ScatchGPIO
+Python
+PiBorg
+
+Description:
+Page	Article
+1	Cover
+2	Editorial & Credits
+3	Contents
+4-7	Interview (AdaFruit)
+8-10	WebIO Pi
+11	Advert Pimoroni
+12-14	Pi Backup
+15	Competition
+16-17	Quick2Wire Review
+18-19	RISC OS Intro
+20-21	Arch Linux
+22-23	Intro To Vala
+24	Events
+25	Advert Adafruit
+26-30	C Cave
+31	Advert Quick2Wire
+32-33	Scratch
+34-35	Python Pit
+36	Back Cover

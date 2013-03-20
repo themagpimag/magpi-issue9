@@ -1,0 +1,4 @@
+After a bit of testing the XFCE desktop seems a bit too slow for normal use. It works fine in Raspbian and the Arch image is hard flout as well, so perhaps someone else could test just to make sure it's not an issue on my side, but if no-one's up for it would you be able to change the references to xfce4 and XFCE to lxde?
+
+Thanks,
+Alex

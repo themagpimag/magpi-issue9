@@ -1,0 +1,23 @@
+
+_____________________________________________________________
+BELOW IS NOW IMPLEMENTED:
+
+
+Could do with a suggestion of linux distro/live cd to use.
+
+Should also add details about compressing the image too.
+
+Note, this was covered in issue 3 I think...
+
+Also, does not cover doing this to a memory-stick particularly if fat32 or similar (<4Gb Files)
+
+
+http://ubuntuforums.org/showthread.php?p=9648313
+
+"dd" is the command to make a bit-by-bit copy of "if=/dev/sda" as the "Input File" to "of=/mnt/sda1/sda.img.gz" as the "Output File". Everything from the partition will go into an "Output File" named "sda.img.gz". "conv=sync,noerror" tells dd that if it can't read a block due to a read error, then it should at least write something to its output of the correct length. Even if your hard disk exhibits no errors, remember that dd will read every single block, including any blocks which the OS avoids using because it has marked them as bad. "bs=64K" is the block size of 64x1024 Bytes. Using this large of block size speeds up the copying process. The output of dd is then piped through gzip to compress it and in turn piped to split in order to split it in 2gb chunks which fit nicely on FAT32 drives
+
+
+dd if=/dev/sda conv=sync,noerror bs=64K | gzip -c | split -b 2000m - ./system_drive_backup.img.gz
+
+Restore:
+cat system_drive_backup.img.gz.* | gzip -dc | dd of=/dev/sda conv=sync,noerror bs=64K

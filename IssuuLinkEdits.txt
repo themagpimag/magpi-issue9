@@ -1,0 +1,21 @@
+Edits required (not made yet):
+Page 6:
+http://www.adafruit.com/catsofengineering has "." in url.
+
+Page 18/19:
+2 of 3 links not linked
+
+Page 20/21:
+4 out of 5 links are bad/extra.
+
+Page 22:
+1 of 3 links extra.
+
+Page 24:
+Sheffield link is outdated.
+
+Page 32:
+Double check the Quick2Wire link and location.
+
+Page 34:
+9 links, 4 extra and 1 bad.
