@@ -36,10 +36,11 @@
             <Separation Name="Yellow"/>
             <Separation Name="Black"/>
         </Printer>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Fonts Name="Bitstream Charter Bold"/>
             <Fonts Name="Century Schoolbook L Bold"/>
             <Fonts Name="Courier 10 Pitch Regular"/>
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Bold Oblique"/>
             <Subset Name="FreeSans Regular"/>
@@ -98,7 +99,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="218.426452636719" WIDTH="513.070861816406" HEIGHT="600.944885253906" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="28.3464566929134" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Bitstream Charter Bold" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="LeftPageBodyText" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 600.945 513.071 600.945 513.071 600.945 513.071 600.945 0 600.945 0 600.945 0 600.945 0 600.945 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 600.945 513.071 600.945 513.071 600.945 513.071 600.945 0 600.945 0 600.945 0 600.945 0 600.945 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="3" LAYER="3" BOOKMARK="0" NEXTITEM="9" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" CH="In this 2 part article I shall explain how you can easily backup your Raspberry Pi SD card to a different computer, to a USB device, to CDs or DVDs and also how to restore from these. All of this is simple on a Linux computer. Windows users requiring a backup to CDs or DVD"/>
+            <ITEXT FONT="FreeSans Regular" CH="In this two part article I shall explain how you can easily backup your Raspberry Pi SD card to a different computer, USB device, CDs or DVDs and also how to restore from these. All of this is simple on a Linux computer. Windows users requiring a backup to CDs or DVD"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="s would be better off using a live Linux "/>
             <ITEXT FONT="FreeSans Regular" CH="distribution such as the excellent Linux Mint."/>
             <para PARENT="BodyText"/>
@@ -111,30 +112,30 @@
             <ITEXT FONT="FreeSans Regular" CH="SD cards are much more robust than hard drives, but they can still easily fail with total loss of data. I have had two SD cards become corrupted and completely lock up my Pi. The only recourse was to pull the power lead out and unfortunately in both cases I was left with an SD card where the &quot;/&quot; partition could not be read, so I had no operating system."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT FONT="FreeSans Regular" CH="Luckily I had a backup. It was a backup of a 4Gb SD card but I had corrupted my new 8Gb one. Fortunately you can restore a 4Gb image to a bigger SD card and I will explain how to perform this task later in this article."/>
+            <ITEXT FONT="FreeSans Regular" CH="Luckily I had a backup. It was a backup of a 4GB SD card but I had corrupted my new 8GB one. Fortunately you can restore a 4GB image to a bigger SD card and I will explain how to perform this task later in this article."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="Windows Users"/>
             <para PARENT="BodyTitle"/>
             <ITEXT FONT="FreeSans Regular" CH="These instructions are intended for Linux only. For Windows users you can make a complete backup image of your SD card using the same Win32DiskImager program that you used to create your Raspbian SD card. Insert your SD card into an SD card reader in your Windows machine and start Win32DiskImager. Enter a name for your backup image and click on "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" FONTSIZE="12" CH="Read"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Read"/>
             <ITEXT FONT="FreeSans Regular" CH=". When the backup is complete, the file size of the backup image file should be very similar to the size of the SD card."/>
             <para PARENT="BodyText"/>
             <ITEXT CH="A Few Caveats"/>
             <para PARENT="BodyTitle"/>
-            <ITEXT FONT="FreeSans Regular" CH="Because Windows is the most common operating system, many vendors supply USB thumb drives and USB hard drives formatted with the FAT32 file system. Note that FAT32 cannot cope with any files that are bigger than 4Gb. If your SD card image is larger than this, you will need to split the file into 4Gb chunks."/>
+            <ITEXT FONT="FreeSans Regular" CH="Because Windows is the most common operating system, many vendors supply USB thumb drives and USB hard drives formatted with the FAT32 file system. Note that FAT32 cannot cope with any files that are bigger than 4GB. If your SD card image is larger than this, you will need to split the file into 4GB chunks."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="You could reformat the USB device with NTFS, but if you never intend to use the device with any Windows computers, then you can easily format it with a Linux file system such as EXT4."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT FONT="FreeSans Regular" CH="Equally, whether on Linux or Windows, if you are using the 32-bit version then once again a file size limitation will be encountered. The maximum size for a single file on a 32-bit operating system is 4Gb. If your backup file is larger than this you will have to split it into 4Gb chunks. Compressing and splitting backups is covered in detail below."/>
+            <ITEXT FONT="FreeSans Regular" CH="Equally, whether on Linux or Windows, if you are using the 32-bit version then once again a file size limitation will be encountered. The maximum size for a single file on a 32-bit operating system is 4GB. If your backup file is larger than this you will have to split it into 4GB chunks. Compressing and splitting backups is covered in detail below."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="Getting root Access"/>
             <para PARENT="BodyTitle"/>
             <ITEXT FONT="FreeSans Regular" CH="The remainder of this article assumes that you have root access to the computer where you will be saving the backup. To get root access you can either prefix every command with "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" FONTSIZE="12" CH="sudo"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="12" CH="sudo"/>
             <ITEXT FONT="FreeSans Regular" CH=", or you can run the following command to start a root shell:"/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
@@ -146,10 +147,10 @@
             <ITEXT FONT="FreeSans Regular" CH="Plug your SD card into your Linux computer, not your Raspberry Pi. If your computer has a built-in card slot, you most likely have the card on /dev/mmcblk0. If you have it in a USB adaptor of some kind, it’s most likely going to be /dev/sdx where ‘x’ is the digit representing the highest device of this kind."/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="To find out, run the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" FONTSIZE="12" CH="fdisk -l"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="12" CH="fdisk -l"/>
             <ITEXT FONT="FreeSans Regular" CH=" command. The tail end of the output from this command can be seen at the top of this page."/>
             <ITEXT CH=" "/>
-            <ITEXT FONT="FreeSans Regular" CH="I can recognise the card by the size, 8Gb (or 7948Mb as listed above) which is the only device or partition that I have of this size. Also shown are the two partitions on the device and seeing that one of them is small and W95 FAT32 (LBA) and the other is Linux, then I am certain that this is my SD card."/>
+            <ITEXT FONT="FreeSans Regular" CH="I can recognise the card by the size 8GB (or 7948MB as listed above), which is the only device or partition that I have of this size. Also shown are the two partitions on the device and seeing that one of them is small and W95 FAT32 (LBA) and the other is Linux, then I am certain that this is my SD card."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="In the above, the suffixes 'p1' and 'p2' in the Device Boot column indicate the partitions on the card. The card itself is the device named /dev/mmcblk0 and we need the device name, not the partition names."/>
@@ -177,15 +178,15 @@
             <ITEXT CH=" 1369.42 s, 5.8 MB/s"/>
             <para PARENT="Code"/>
             <para PARENT="BodyText"/>
-            <ITEXT FONT="FreeSans Regular" CH="That’s it. The whole 8Gb SD card has been (slowly) copied to my computer. How do I know it worked? Type "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="ls -l -h"/>
+            <ITEXT FONT="FreeSans Regular" CH="That’s it. The whole 8GB SD card has been (slowly) copied to my computer. How do I know it worked? Type "/>
+            <ITEXT FONT="Monaco Regular" CH="ls -l -h"/>
             <ITEXT FONT="FreeSans Regular" CH=" and you will see the new file name and size."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="Compressing the Backup"/>
             <para PARENT="BodyTitle"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="Once created and checked, the backup image can be compressed to save space. This is a simple matter of using the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" FONTSIZE="12" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="12" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" command"/>
             <ITEXT CH=":"/>
             <para PARENT="BodyText"/>
@@ -196,9 +197,9 @@
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="The use of "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" in this manner requires that you have enough space to save both the full size image file and the compressed image for as long as the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" command is running. Once complete, the full sized file will be deleted leaving only a compressed file, named as per the original file name but with an additional '.gz' extension. In this example my compressed image file would be Rpi_8gb_backup.img.gz."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
@@ -208,9 +209,9 @@
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="Unless otherwise instructed, the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" FONTSIZE="12" CH="dd"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="12" CH="dd"/>
             <ITEXT FONT="FreeSans Regular" CH=" command defaults its output file to be the console. You can use this feature to pipe the output through "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" and create a compressed image file in a single step. You will not need as much disc space because the full sized image file is never created, only the smaller compressed one. The command to do this is:"/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
@@ -225,22 +226,22 @@
             <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Continued over page..."/>
             <para PARENT="BodyText" ALIGN="2"/>
             <ITEXT FONT="FreeSans Regular" CH="Because you are redirecting the output from "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" to a file, it is your responsibility to supply the file name and the '.gz' extension. You must also include the hyphen after the '-9' in the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" command. This tells "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" to write its output to the console which, in this case, has been redirected to a file named Rpi_8gb_backup.img.gz."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="Splitting the Backup"/>
             <para PARENT="BodyTitle"/>
-            <ITEXT FONT="FreeSans Regular" CH="As mentioned previously, some file systems cannot cope with files larger than a specific size. FAT32, for example, has a 4Gb limit and 32-bit operating systems can also only cope with 4Gb for each individual file. If you intend to create or copy your backups with these types of systems or devices, then you must split the image files into appropriate sized chunks."/>
+            <ITEXT FONT="FreeSans Regular" CH="As mentioned previously, some file systems cannot cope with files larger than a specific size. FAT32, for example, has a 4GB limit and 32-bit operating systems can also only cope with 4GB for each individual file. If you intend to create or copy your backups with these types of systems or devices, then you must split the image files into appropriately sized chunks."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="Once again, a pipe comes to the rescue. The "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="split"/>
-            <ITEXT FONT="FreeSans Regular" CH=" utility in Linux is designed to allow a large file to be split into a number of smaller files, each of a given size. If we wish to create a compressed backup of an SD card, ready for burning onto one or more CDs or DVDs, then the following command will backup the card, compress the backup on the fly and then split the compressed image into a number of 2Gb files ready to be burned onto DVDs."/>
+            <ITEXT FONT="Monaco Regular" CH="split"/>
+            <ITEXT FONT="FreeSans Regular" CH=" utility in Linux is designed to allow a large file to be split into a number of smaller files, each of a given size. If we wish to create a compressed backup of an SD card, ready for burning onto one or more CDs or DVDs, then the following command will backup the card, compress the backup on the fly and then split the compressed image into a number of 2GB files ready to be burned onto DVDs."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH=" $ dd if=/dev/mmcblk0 bs=2M | \"/>
@@ -256,18 +257,18 @@
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="The "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="split"/>
+            <ITEXT FONT="Monaco Regular" CH="split"/>
             <ITEXT FONT="FreeSans Regular" CH=" command, similar to "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH=", requires a hyphen as the input file name. In the above there is no input file name as we are reading from a pipe, so the hyphen tells "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="split"/>
+            <ITEXT FONT="Monaco Regular" CH="split"/>
             <ITEXT FONT="FreeSans Regular" CH=" to read the input from the console which, in this case, is the piped output from "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gzip"/>
             <ITEXT FONT="FreeSans Regular" CH="."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="The final parameter to "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="split"/>
+            <ITEXT FONT="Monaco Regular" CH="split"/>
             <ITEXT FONT="FreeSans Regular" CH=" defines the root part of the output file names. Each one will be called 'Rpi_8gb_backup.img.gz.part_xx'. The 'xx' part will be 'aa', 'ab', 'ac' and so on. "/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
@@ -290,15 +291,15 @@
             <para PARENT="Code"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="The '-c' in the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gunzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gunzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" command above is required to tell "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gunzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gunzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" to write the decompresssed data to the console. The "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="dd"/>
+            <ITEXT FONT="Monaco Regular" CH="dd"/>
             <ITEXT FONT="FreeSans Regular" CH=" command reads its input, unless otherwise specified, from the console so the output from "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="gunzip"/>
+            <ITEXT FONT="Monaco Regular" CH="gunzip"/>
             <ITEXT FONT="FreeSans Regular" CH=" passes straight into "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="dd"/>
+            <ITEXT FONT="Monaco Regular" CH="dd"/>
             <ITEXT FONT="FreeSans Regular" CH=" and out to the SD card."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
@@ -313,7 +314,7 @@
             <para PARENT="Code"/>
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Regular" CH="The list of files to be joined back together again must be specified in the correct order. However, using a wild card to the "/>
-            <ITEXT FONT="Courier 10 Pitch Regular" CH="cat"/>
+            <ITEXT FONT="Monaco Regular" CH="cat"/>
             <ITEXT FONT="FreeSans Regular" CH=" command causes them to be read in alphbetical order, which is exactly how we want them to be. "/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
