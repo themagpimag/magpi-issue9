@@ -31,10 +31,10 @@
         <LAYERS NUMMER="2" LEVEL="1" NAME="Images" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="3" LEVEL="2" NAME="Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="1" registrationMarks="0" colorMarks="1" includePDFMarks="0" PSLevel="3" PDLanguage="3" markOffset="1.06809996176056e-306" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <Fonts Name="FreeSans Bold Oblique"/>
-            <Fonts Name="FreeSans Regular"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
@@ -84,7 +84,7 @@
             <ITEXT CH="History"/>
             <para PARENT="BodyTitle"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="The reduced instruction set computing (RISC) operating system (OS) for Acorn RISC machine (ARM) based computers and emulators has been around since 1987 (originally under the guise of Arthur), almost for as long as the ARM chip itself. The first ARM 2 based computer was eponymously named the Acorn Archimedes after the famous ancient Greek inventor. At the time it represented a revolutionary leap forward on the then ubiquitous 6502 based BBC micro being sold into the home and educational market. Following on from this the more powerful RISC PC was released in 1994 based on the StrongARM chip running at 300Mhz, though production ceased around a decade ago."/>
+            <ITEXT CH="The reduced instruction set computing (RISC) operating system (OS) for Acorn RISC machine (ARM) based computers and emulators has been around since 1987 (originally under the guise of Arthur), almost for as long as the ARM chip itself. The first ARM 2 based computer was eponymously named the Acorn Archimedes after the famous ancient Greek inventor. At the time it represented a revolutionary leap forward on the then ubiquitous 6502 based BBC micro being sold into the home and educational markets. Following on from this the more powerful RISC PC was released in 1994 based on the StrongARM chip running at 300Mhz, though production ceased around a decade ago."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="In 1998 Acorn broke up and Castle Technology bought the rights to RISC OS from Pace Technology and released the Ioynix PC. From 2006 RISC OS Ltd (ROOL) has taken over RISC OS development via a shared source initiative (SSI) and a few variants now exist that run on the RISC PC emulator for Windows and Unix (RPCEmu), the beagle board, the panda board, ARMini, and of particular interest here, the Raspberry Pi."/>
@@ -96,10 +96,10 @@
             <ITEXT CH="Booting"/>
             <para PARENT="BodyTitle"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="RISC OS boots straight into a windows, icons, menus, pointer (WIMP) desktop with a nice Raspberry Pi background (see screen shot) from which applications can be launched. A strip at the bottom of the screen known as the icon bar holds devices at the left and running applications at the right. Clicking on a device icon (e.g. hard drive, SD card, RAM disc) opens a filer window which can be used for browsing and launching different types of file such as BASIC programs, modules and applications. Similarly left clicking on an application typically opens a window for the user to interact with it, or clicking with the middle button brings up a menu from which configuration options can be set and actions performed. Task windows open up a command line interface (CLI) from which many common tasks can be executed and these can be grouped and packaged into Obey files for convenience."/>
+            <ITEXT CH="RISC OS boots straight into a windows, icons, menus, pointer (WIMP) desktop with a nice Raspberry Pi background from which applications can be launched. A strip at the bottom of the screen known as the icon bar holds devices at the left and running applications at the right. Clicking on a device icon (e.g. hard drive, SD card, RAM disc) opens a filer window which can be used for browsing and launching different types of file such as BASIC programs, modules and applications. Similarly, left clicking on an application typically opens a window for the user to interact with it, or clicking with the middle button brings up a menu from which configuration options can be set and actions performed. Task windows open up a command line interface (CLI) from which many common tasks can be executed and these can be grouped and packaged into Obey files for convenience."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="WIMP based applications co-operate through the software interrupt (SWI) based WIMP application programming interface (API) which is documented in the Programmer Reference Manuals (PRMs). There are available from the the "/>
+            <ITEXT CH="WIMP based applications co-operate through the software interrupt (SWI) based WIMP application programming interface (API) which is documented in the Programmer Reference Manuals (PRMs). These are available from the "/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="foundation.riscos.com"/>
             <ITEXT CH=" web site and run to five large volumes effectively constituting the equivalent of the bible for RISCOS application developers. "/>
             <para PARENT="BodyText"/>
@@ -107,7 +107,7 @@
             <ITEXT CH="Files can be pinned to the desktop for easy access and wallpapers and screen savers can be easily configured, so anyone familiar with Windows or Unix will quickly feel at home."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="RISC OS comes with an internet browser called !NetSurf, though at present network access must be provided via an ethernet cable. ARM BBC Basic can be started from a Task Window (press ctrl F12) from the * command prompt by typing Basic."/>
+            <ITEXT CH="RISC OS comes with an internet browser called !NetSurf, though at present network access must be provided via an ethernet cable. ARM BBC Basic can be started from a Task Window (press CTRL+F12) from the * command prompt by typing Basic."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
@@ -124,7 +124,7 @@
             <ITEXT CH="RISC OS Open have joined forces with some of the leading software developers in the RISC OS community and sell at a large discount the Nut Pi, a package of flagship RISC OS software specifically for RISC OS Pi."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="A tasks window allows memory to be allocated between various parts of the system and user applications, and a number of different screen modes of different pixel counts and number of colours (up to 24 bit colour depth) are supported."/>
+            <ITEXT CH="A task window allows memory to be allocated between various parts of the system and user applications, and a number of different screen modes of different pixel counts and number of colours (up to 24 bit colour depth) are supported."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyTitle"/>
@@ -160,10 +160,10 @@
             <para PARENT="BodyText"/>
             <ITEXT CH="My particular interest in RISC OS on the Raspberry Pi is as a host for the Charm set of development tools and demos targetted at the educational and enthusiast sector, for which I am the author. A GPL licensed release is bundled with the distro, however the latest release is available from "/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="www.charm.qu-bit.co.uk"/>
-            <ITEXT CH=" which is optionally recompilable to utilise the VFP co-processor for floating point operations. See the article on Charm in the next edition of the MagPi for more information."/>
+            <ITEXT CH=" which is optionally recompilable to utilise the VFP co-processor for floating point operations. See the article on Charm in the next edition of The MagPi for more information."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="In summary RISC OS on the Raspberry Pi is easy to install, quick to boot at under 20 seconds, responsive, intuitive and easy to pick up so why not give it a whirl?"/>
+            <ITEXT CH="In summary RISC OS on the Raspberry Pi is easy to install, quick to boot at under 20 seconds, responsive, intuitive and easy to pick up... so why not give it a whirl?"/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="Article by Pete Nowosad"/>

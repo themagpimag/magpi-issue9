@@ -32,11 +32,11 @@
         <LAYERS NUMMER="2" LEVEL="1" NAME="Images" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="3" LEVEL="2" NAME="Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="1" registrationMarks="0" colorMarks="1" includePDFMarks="0" PSLevel="3" PDLanguage="3" markOffset="1.06809996176056e-306" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <Fonts Name="FreeSans Bold Oblique"/>
-            <Fonts Name="FreeSans Regular"/>
-            <Subset Name="Monaco Regular"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
@@ -100,7 +100,7 @@
             <ITEXT CH="Arch Linux is different in this respect, releasing updates as soon as possible.  For this reason it is called a 'rolling release' distro, since you only have to install it once and then whenever a package gets an update you can upgrade it there and then. This allows users to get updates more quickly, although it means software is more unstable.  In case of trouble, you can simply image the SD card again."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="The other major difference between the two is that Raspbian comes completely ready, while Arch comes with the bare essentials, allowing users to pick what they want to install. This makes setup harder for newcomers though, but this guide should help ease the process."/>
+            <ITEXT CH="The other major difference between the two is that Raspbian comes completely ready, while Arch comes with the bare essentials, allowing users to pick what they want to install. This makes setup harder for newcomers, but this guide should help ease the process."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="So, if continuous updates and your Pi the way you want it sound good, why not have a go at installing Arch? "/>
@@ -196,7 +196,7 @@
             <ITEXT CH=" nano  /etc/locale.gen"/>
             <para PARENT="Code"/>
             <para PARENT="4pt padding"/>
-            <ITEXT CH="find your country and remove the '#' symbol in front of it. For example, mine would be en_GB. When you are done, use Ctrl+O to save and Ctrl+X to exit. Then type:"/>
+            <ITEXT CH="Find your country and remove the '#' symbol in front of it. For example, mine would be en_GB. When you are done, use Ctrl+O to save and Ctrl+X to exit. Then type:"/>
             <para PARENT="BodyText"/>
             <para PARENT="4pt padding"/>
             <ITEXT CH=" locale-gen"/>
@@ -208,7 +208,7 @@
             <ITEXT CH=" nano /etc/locale.conf"/>
             <para PARENT="Code"/>
             <para PARENT="4pt padding"/>
-            <ITEXT CH="and edit it to the same language and country code as before."/>
+            <ITEXT CH="Edit it to the same language and country code as before."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="Finally we need to set the console's keymap so it fits the country's keyboard all the time. For this type,"/>
@@ -217,7 +217,7 @@
             <ITEXT CH=" nano /etc/vconsole.conf"/>
             <para PARENT="Code"/>
             <para PARENT="4pt padding"/>
-            <ITEXT CH="and change KEYMAP to the country code you used with the loadkeys command previously."/>
+            <ITEXT CH="Change KEYMAP to the country code you used with the loadkeys command previously."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
             <ITEXT CH="All the language settings are set now, so if you want you can reboot to see the changes, by typing:"/>
@@ -253,7 +253,7 @@
             <ITEXT CH=" pacman -R &lt;package name&gt;"/>
             <para PARENT="Code"/>
             <para PARENT="4pt padding"/>
-            <ITEXT CH="And to see a list of installed packages, type:"/>
+            <ITEXT CH="To see a list of installed packages, type:"/>
             <para PARENT="BodyText"/>
             <para PARENT="4pt padding"/>
             <ITEXT CH=" pacman -Q"/>
@@ -301,7 +301,7 @@
             <ITEXT CH="Then be sure to pick a secure password."/>
             <para PARENT="BodyText"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="And with that, we're done with the basic setup! Type:"/>
+            <ITEXT CH="With that, we're done with the basic setup! Type:"/>
             <para PARENT="BodyText"/>
             <para PARENT="4pt padding"/>
             <ITEXT CH=" logout"/>
@@ -313,19 +313,19 @@
             <ITEXT CH="Setting up a graphical user interface"/>
             <para PARENT="BodyTitle"/>
             <para PARENT="BodyText"/>
-            <ITEXT CH="This final part is optional, but if you'd prefer more than just a command line you should do it. To install a graphical interface, simply type:"/>
+            <ITEXT CH="This final part is optional, but if you'd prefer more than just a command line you should do it. To install a graphical interface, simply type all on one line:"/>
             <para PARENT="BodyText"/>
             <para PARENT="4pt padding"/>
             <ITEXT CH=" pacman -S gamin dbus xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-video-vesa xfce4"/>
             <para PARENT="Code"/>
             <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="all on one line. Once the installation is finished, type:"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Once the installation is finished, type:"/>
             <para PARENT="BodyText"/>
             <para PARENT="4pt padding"/>
             <ITEXT CH=" cp /etc/skel/.xinitrc ~/.xinitrc"/>
             <para PARENT="Code"/>
             <para PARENT="4pt padding"/>
-            <ITEXT FONTSIZE="10" CH="and then:"/>
+            <ITEXT FONTSIZE="10" CH="Then type:"/>
             <para PARENT="BodyText"/>
             <para PARENT="4pt padding"/>
             <ITEXT CH=" echo &quot;exec startxfce4&quot; &gt;&gt; ~/.xinitrc"/>
